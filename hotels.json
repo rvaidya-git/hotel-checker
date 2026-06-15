@@ -1,8 +1,8 @@
 [
   {
     "name": "La Bahia Hotel & Spa",
-    "search_url": "https://labahiahotel.com/",
-    "must_have_terms": ["double queen", "two queen", "2 queen", "queen queen"],
+    "search_url": "https://be.synxis.com/?_gl=1*ckhi1m*_gcl_aw*R0NMLjE3ODE1MDg5NDguQ2p3S0NBand4YjdSQmhBNUVpd0FRLUFBZE5Cb1lSNjVZaXowNFRTeXpXVjBRM0RYemJydk1CaUtnNE0tWml5Sm90LWpWaGRoZmRZUGl4b0MwZk1RQXZEX0J3RQ..*_gcl_au*NjAwMTAwODcxLjE3ODE1MDg5NDc.*_ga*NzIzMjkwNDQuMTc4MTUwODk0Nw..*_ga_E5RCC9PPR8*czE3ODE1MDg5NDckbzEkZzAkdDE3ODE1MDg5NDckajYwJGwwJGgw&adult=2&arrive=2026-06-19&chain=33222&child=1&currency=USD&depart=2026-06-21&hotel=48068&level=hotel&locale=en-US&productcurrency=USD&rooms=1",
+    "must_have_terms": ["double queen", "two queen", "2 queen", "2 queens", queen queen"],
     "reject_terms": ["king", "sofa bed", "sleeper sofa", "sold out", "unavailable"],
     "max_total_usd": 2000
   },
