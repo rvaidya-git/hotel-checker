@@ -1,0 +1,23 @@
+[
+  {
+    "name": "La Bahia Hotel & Spa",
+    "search_url": "https://labahiahotel.com/",
+    "must_have_terms": ["double queen", "two queen", "2 queen", "queen queen"],
+    "reject_terms": ["king", "sofa bed", "sleeper sofa", "sold out", "unavailable"],
+    "max_total_usd": 2000
+  },
+  {
+    "name": "Dream Inn Santa Cruz",
+    "search_url": "https://www.dreaminnsantacruz.com/",
+    "must_have_terms": ["two queen", "2 queen"],
+    "reject_terms": ["king", "sofa bed", "sleeper sofa", "sold out", "unavailable"],
+    "max_total_usd": 2000
+  },
+  {
+    "name": "Hotel Paradox",
+    "search_url": "https://www.hotelparadox.com/santa-cruz-hotel-rooms/",
+    "must_have_terms": ["2 queens", "two queen", "2 queen"],
+    "reject_terms": ["king", "sofa bed", "sleeper sofa", "sold out", "unavailable"],
+    "max_total_usd": 2000
+  }
+]
