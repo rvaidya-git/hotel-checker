@@ -27,6 +27,6 @@ jobs:
       - name: Run hotel checker
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          ALERT_EMAIL: ${{ secrets.ALERT_TO_EMAIL }}
           FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
         run: python check_hotels.py
