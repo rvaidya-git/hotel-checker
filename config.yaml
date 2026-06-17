@@ -2,7 +2,7 @@ search:
   name: "Santa Cruz Luxury Hotel Search"
   check_in: "2026-06-19"
   check_out: "2026-06-21"
-  stop_at: "2026-06-16 15:00"
+  stop_at: "2026-06-17 04:00"
   timezone: "America/Los_Angeles"
 
 guests:
