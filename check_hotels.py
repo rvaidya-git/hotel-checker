@@ -331,7 +331,7 @@ def build_email_html(matches, config):
 def send_email(subject, html, config):
     resend_api_key = os.environ["RESEND_API_KEY"]
     from_email = os.environ["FROM_EMAIL"]
-    alert_email = config["email"]["alert_email"]
+    alert_email = os.environ["ALERT_EMAIL"]
 
     response = requests.post(
         "https://api.resend.com/emails",
