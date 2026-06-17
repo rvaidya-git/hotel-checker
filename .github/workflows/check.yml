@@ -1,4 +1,4 @@
-name: Check Santa Cruz Hotels
+name: Check Hotels
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
 jobs:
   check-hotels:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Check out repo
@@ -27,6 +27,5 @@ jobs:
       - name: Run hotel checker
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
           FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
         run: python check_hotels.py
