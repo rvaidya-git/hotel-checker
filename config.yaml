@@ -49,7 +49,6 @@ amenities:
     - "resort"
 
 email:
-  alert_email: "rvaidya@gmail.com"
   subject_prefix: "Hotel Alert"
   send_every_matching_run: true
   include_screenshot: true
