@@ -1,8 +1,8 @@
 search:
-  name: "Santa Cruz Luxury Hotel Search"
-  check_in: "2026-06-19"
-  check_out: "2026-06-21"
-  stop_at: "2050-06-17 04:00"
+  name: "San Diego Sharma-Vaidya Luxury Hotel Search"
+  check_in: "2026-07-24"
+  check_out: "2026-07-27"
+  stop_at: "2026-07-23 04:00"
   timezone: "America/Los_Angeles"
 
 guests:
@@ -12,7 +12,7 @@ guests:
   min_occupancy: 4
 
 budget:
-  max_total_stay_usd: 2000
+  max_total_stay_usd: 3000
 
 room_rules:
   required_bed_terms:
@@ -80,12 +80,12 @@ hotels:
     notes: "Beachfront, pool, two queen rooms."
 
 broad_searches:
-  - name: "Google Hotels Santa Cruz"
+  - name: "Google Hotels San Diego"
     type: "broad_search"
-    search_url: "https://www.google.com/travel/hotels/Santa%20Cruz"
+    search_url: "https://www.google.com/travel/hotels/San%20Diego"
     notes: "Broad fallback search. May be harder to scrape."
 
-  - name: "Booking.com Santa Cruz"
+  - name: "Booking.com San Diego"
     type: "broad_search"
-    search_url: "https://www.booking.com/searchresults.html?ss=Santa+Cruz%2C+California"
+    search_url: "https://www.booking.com/searchresults.html?ss=San+Diego%2C+California"
     notes: "Broad fallback search. May be blocked or incomplete."
